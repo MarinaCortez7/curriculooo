@@ -1,0 +1,106 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial',sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 900px;
+    padding: 10px;
+}
+
+.menus{
+    display: flex;
+    gap: 170px;
+    list-style: none;
+    align-items: center;
+}
+
+.banner{
+    background-color: lavender;
+    width: 100%;
+    height: 350px;
+}
+
+.h1nome{
+    text-align: center;
+}
+
+
+.imgtexto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.textobanner{
+
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.imgg{
+    border-radius: 50px;
+}
+
+.rodape{
+    background-color: lavender;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerRodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 40px;
+    text-align: justify;
+    gap: 80px;
+}
+
+.containerRodape img{
+    width: 110px;
+    height: 100px;
+}
+
+.dados1, .dados2, .dados3, .dados4{
+    width: 50%;
+    font-size: 17px;
+    display: flex;
+    border: solid black 2px;
+    height: 250px;
+
+}
+
+.paidados,.paidados2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 60px;
+    text-align: justify;
+    gap: 100px;
+}
+{
+    width: 50%;
+    font-size: 17px;
+    display: flex;
+}
+
+.texto{
+    margin: 10px 10px;
+}
+
+.paidados2{
+    margin-bottom: 50px;
+}
